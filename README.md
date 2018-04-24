@@ -19,7 +19,9 @@ The workshop will be a mix of lectures and hands-on exercises.
 
 **Slides**
 
-
+**Resources**
+For Windows users, download and install [Git Bash](https://git-scm.com/downloads)
+Command line [cheat sheet](https://www.git-tower.com/blog/command-line-cheat-sheet/)
 
 **Tech requirements**
 
