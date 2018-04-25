@@ -17,6 +17,7 @@ The workshop will be a mix of lectures and hands-on exercises.
 * Using remote repos 
 
 **Slides**
+
 Available on [GitHub](https://saracope.github.io/git-the-basics/#/)
 
 **Resources**
