@@ -15,7 +15,7 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 		<link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+    <link rel="stylesheet" href="css/theme/simple.css" id="theme">
     <link rel="stylesheet" href="css/styles.css">
 
 		<!-- For syntax highlighting -->
@@ -39,10 +39,9 @@
 			<div class="slides">
 			  <!-- Opening slide -->
         <section>
-          <img src = "images/#" style=
+          <img src = "images/drupal4gov_logo.jpg" style=
           "background: transparent; border:none; box-shadow: none;">
           <h3>Git the Basics</h3>
-          <p>Drupal 4 Gov</p>
         </section>
 
         <!-- Welcome-->
@@ -54,7 +53,7 @@
             <li class="fragment">Short recap of the command line</li>
             <li class="fragment">What is version control and why should we care?</li>
             <li class="fragment">Basics of Git: the essential commands</li>
-           <li class="fragment">GitHub (or, a little Git between friends)</li>
+            <li class="fragment">GitHub (or, a little Git between friends)</li>
           </ul>
         </section>
 
@@ -175,30 +174,18 @@ ResumeREALLYREALLYNEW.docx</code></pre>
             <p>Each client (person) has a local repository, which they can then reconcile with the main server.</p>
             <p class="pink">Examples: Git, Mercurial</p>
         </section>
-        <!-- Git-->
-        <section>
-          <h3>Why Use Git?</h3>
 
-          <ul>
-            <li><span class="green">Fast!</span> Access information quickly and efficiently.</li>
-            <li><span class="green">Distributed!</span> Everyone has her own local copy.</li>
-            <li><span class="green">Scalable!</span> Enables potentially thousands (millions!) of developers to work on single project.
-            <li><span class="green">Local!</span> You don't need a network connection to use it. You only need a remote server if you want to share your code with others (e.g., using GitHub).</li>
-            <li><span class="green">Branches!</span> Keep your coding experiments separate from code that is already working.</li>
-            <li>Everyone has a local copy of the <span class="green">shared files</span> and the <span class="green">history.</span></li>
-          </ul>
-        </section>
 
-         <!-- Installation and Setup-->
+         <!-- Installation and Setup
          <section>
           <h3>Installation and Setup</h3>
           
             <p><a href = "http://git-scm.com/downloads" alt ="Download latest version of Git" target ="_blank">Install Git</a></p>
             <img src = "images/install-git.png" alt = "Download latest version of Git"/>
           <p><a href="https://help.github.com/articles/set-up-git/">Setup steps on GitHub</a></p>
-        </section>
+        </section> -->
 
-        <section>
+        <!-- <section>
           <h3>Installation and Setup</h3>
           <p>Set up name and email in gitconfig</p>
           <pre><code class="command-line">$ git config --global user.name "Your Name Here"
@@ -206,8 +193,8 @@ ResumeREALLYREALLYNEW.docx</code></pre>
           <pre><code class="command-line">$ git config --global user.email "your_email@example.com"
 # Sets the default email for Git to use when you commit</code></pre>
           <pre><code class="command-line">$ git config --list</code></pre>
-        </section>
-        <section>
+        </section> -->
+        <!-- <section>
           <h3>Setup: Setting the default text editor</h3>
           <p> By default Git is set up to use Vim as the text editor.</p>
           <p>(<span class="green">esc</span> + <span class="green">:q</span> or <span class="green">:q!</span> to get out of Vim)</p>
@@ -216,22 +203,103 @@ ResumeREALLYREALLYNEW.docx</code></pre>
 # Sets the default text editor to Nano</code></pre>
           <br>
           <p>You can find commands for other text editors in <a href="https://help.github.com/articles/associating-text-editors-with-git/">these instructions</a>. </p>
-        </section>
-        <section>
+        </section> -->
+        <!-- <section>
           <h2>Setup!</h2>
             <img src="images/letsdothis.gif" alt="Let's do this thing!"/>
             <div>
               <p>Install Git and set your user name and email.</p>
               <p>BONUS LEVEL: If you want to, change your default text editor.</p>
             </div>
+        </section> -->
+        <section>
+          <h1>Let's Talk About Git</h1>
+          <ul>
+            <li>Commonly used in gov</li>
+            <li>Distributed version control system</li>
+            <li>Originally developed to manage Linux source code</li>
+            <li>Use it from the command line</li>
+        </ul> 
         </section>
-
+        <!-- Git-->
+        <section>
+            <h3>Why Use Git?</h3>
+  
+            <ul>
+              <li><span class="green">Fast!</span> Access information quickly and efficiently.</li>
+              <li><span class="green">Distributed!</span> Everyone has her own local copy.</li>
+              <li><span class="green">Scalable!</span> Enables potentially thousands (millions!) of developers to work on single project.
+              <li><span class="green">Local!</span> You don't need a network connection to use it. You only need a remote server if you want to share your code with others (e.g., using GitHub).</li>
+              <li><span class="green">Branches!</span> Keep your coding experiments separate from code that is already working.</li>
+              <li>Everyone has a local copy of the <span class="green">shared files</span> and the <span class="green">history.</span></li>
+            </ul>
+          </section>
+        <section>
+            <h1>What is GitHub</h1>
+            <ul>
+              <li>Website that hosts your project files online</li>
+              <li>Provides a visual, web-based interface to Git</li>
+              <li>Gives you an up-front GUI and does the Git work behind the scene for you</li>
+              <li>Facilitates social collaboration</li>
+              <li>Has tons of extra features to use for teams and projects</li>
+            </ul>
+        </section>
+        <section>
+            <img src="images/github.png" /img>
+        </section>
         <section>
           <h3> Git has its own Vocabulary </h3>
             <ul>
             <li> A <span class="green">repository</span> is where you keep all the files you want to track.</li>
             <li> A <span class="green">branch</span> is the name for a separate line of development, with its own history.</li>
             <li> A <span class="green">commit</span> is an object that holds information about a particular change. </li>
+            <li> A pull request is way to submit improvements to a project</li>
+            <li> <span class="green">HEAD</span> refers to the most recent commit on the current branch.</li>
+            </ul>
+        </section>
+        <section>
+         <img src="images/burger-barn.png" />
+        </section>
+        <section>
+          <img src="images/burger-barn-1.png" />
+        </section>
+        <section>
+          <img src="images/burger-barn-2-issue.png" />
+        </section>
+        <section>
+          <img src="images/burger-barn-3-branch.png" />
+        </section>
+        <section>
+          <img src="images/burger-barn-4-checkout.png"/>
+        </section>
+        <section>
+          <img src="images/burger-barn-5-changes.png"/>
+        </section>
+        <section>
+          <img src="images/burger-barn-6-more-changes.png"/>
+        </section>
+        <section>
+          <img src="images/burger-barn-7-commit.png"/>
+        </section>
+        <section>
+          <img src="images/burger-barn-8-convo.png"/>
+        </section>
+        <section>
+          <img src="images/burger-barn-9-pull-request.png"/>
+        </section>
+        <section>
+          <img src="images/burger-barn-10-merge.png"/>
+        </section>
+        <section>
+          <img src="images/burger-barn-11-improved.png"/>
+        </section>
+        <section>
+          <h3> Git vocab recap </h3>
+            <ul>
+            <li> A <span class="green">repository</span> is where you keep all the files you want to track.</li>
+            <li> A <span class="green">branch</span> is the name for a separate line of development, with its own history.</li>
+            <li> A <span class="green">commit</span> is an object that holds information about a particular change. </li>
+            <li> A pull request is way to submit improvements to a project</li>
             <li> <span class="green">HEAD</span> refers to the most recent commit on the current branch.</li>
             </ul>
         </section>
@@ -352,7 +420,7 @@ $ git status</code></pre>
           <ul>
             <li class="fragment">When we <span class="green">add</span> a new file, we tell Git to add the file to the repository to be tracked. </li>
             <li class="fragment">This is also called  <span class="green">staging</span> a file. We can see our changes in the <span class="green">staging area</span> (aka the <span class="green">index</span>, aka the <span class="green">cache</span>), ready to be saved.</li>
-            <li class="fragment">A <span class="green">commit</span> saves the <span class="blue">changes</span> made to a file, not the file as a whole. The commit will have a unique ID so we can track which changes were committed when and by whom.</li>
+            <li class="fragment">A <span class="green">commit</span> saves the <span class="blue">changes</span> made to a file, not the file as a whole. The commit will have a unique ID so we can track which changes were committed.</li>
           </ul>
         </section>
         <section>
@@ -526,11 +594,6 @@ $ git status</code></pre>
           <h3>Pssst...what's a feature?</h3>
           <p>Can be something as big as adding a new section to a site or an app, to a small functionality (a carousel on the homepage)</p>
         </section>
-
-        <section>
-          <h3>Branching</h3>
-          <img src="images/branching-octocats.png" />
-        </section>
         <section>
         <h3>Why Do We Need Branching?</h3>
         <ul>
@@ -649,6 +712,37 @@ $ git branch -d feature-branch
           <a href="./branch_exercise.html">Click here for the exercise!</a>
         </section>
 
+
+          <!-- Git terms and commands-->
+        <section>
+          <h3>Vocabulary Review</h3>
+            <ul>
+            <li> A <span class="green">repository</span> is where you keep all the files you want to track.</li>
+            <li> A <span class="green">branch</span> is the name for a separate line of development, with its own history.</li>
+            <li> A <span class="green">commit</span> is an object that holds information about a particular change. </li>
+            <li> <span class="green">HEAD</span> refers to the most recent commit on the current branch.</li>
+            </ul>
+        </section>
+        <section>
+        <h3>Command Review</h3>
+          <ul style="font-family: monospace;">
+            <li>init</li>
+            <li>status</li>
+            <li>add</li>
+            <li>commit</li>
+            <li>log</li>
+            <li>branch</li>
+            <li>checkout</li>
+            <li>merge</li>
+          </ul>
+        </section>
+          
+        <section>
+          <h2>Questions?</h2>
+          <a href="https://xkcd.com/1597/" class="image"><img src = "https://imgs.xkcd.com/comics/git.png" alt = "Git comic on XKCD"/></a>          
+        </section>
+
+
         <section>
           <h3>What could possibly go wrong?</h3>
           <img src="images/merge_conflicts_are_coming.jpg"/>
@@ -705,34 +799,6 @@ $ git merge master #remember, you are on the feature branch here
          <p>The merge conflict occurred because the feature branch (which is based off of master) both had divergent histories for the same file.</p>
         </section>
 
-          <!-- Git terms and commands-->
-        <section>
-          <h3>Vocabulary Review</h3>
-            <ul>
-            <li> A <span class="green">repository</span> is where you keep all the files you want to track.</li>
-            <li> A <span class="green">branch</span> is the name for a separate line of development, with its own history.</li>
-            <li> A <span class="green">commit</span> is an object that holds information about a particular change. </li>
-            <li> <span class="green">HEAD</span> refers to the most recent commit on the current branch.</li>
-            </ul>
-        </section>
-        <section>
-        <h3>Command Review</h3>
-          <ul style="font-family: monospace;">
-            <li>init</li>
-            <li>status</li>
-            <li>add</li>
-            <li>commit</li>
-            <li>log</li>
-            <li>branch</li>
-            <li>checkout</li>
-            <li>merge</li>
-          </ul>
-        </section>
-          
-        <section>
-          <h2>Questions?</h2>
-          <a href="https://xkcd.com/1597/" class="image"><img src = "https://imgs.xkcd.com/comics/git.png" alt = "Git comic on XKCD"/></a>          
-        </section>
 			</div>
 		</div>
 
