@@ -13,7 +13,6 @@ The workshop will be a mix of lectures and hands-on exercises.
 * Setting up repos
 * Staging changes
 * Committing changes
-* Comparing versions
 * Using & merging branches
 * Using remote repos 
 
