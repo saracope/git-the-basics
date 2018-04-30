@@ -20,6 +20,11 @@ The workshop will be a mix of lectures and hands-on exercises.
 
 Available on [GitHub](https://saracope.github.io/git-the-basics/#/)
 
+**Exercises**
+
+[Exercise 1](https://saracope.github.io/git-the-basics/commit_exercise.html)
+[Exercise 2](https://saracope.github.io/git-the-basics/branch_exercise.html)
+
 **Resources**
 * For Windows users, download and install [Git Bash](https://git-scm.com/downloads)
 * Command line [cheat sheet](https://www.git-tower.com/blog/command-line-cheat-sheet/)
