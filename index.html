@@ -623,7 +623,7 @@ $ git status</code></pre>
           <pre><code class="command-line">
 $ git branch 
 // you should see only * master
-$ git checkout feature
+$ git -b checkout feature
 $ git branch
 // you should see * feature and master
           </code></pre>
@@ -633,7 +633,7 @@ $ git branch
           <h3>Okay, let's break that down</h3>
           <ul>
             <li><code class="inline">git branch</code>: tells you what branches you have, and <code class="inline">*</code> indicates which branch you are currently on</li>
-            <li><code class="inline">git checkout branch-name</code>: the <code class="inline">-b</code> creates a new branch, and <code class="inline">checkout</code> will hop you over to that branch</li>
+            <li><code class="inline">git -b checkout branch-name</code>: the <code class="inline">-b</code> creates a new branch, and <code class="inline">checkout</code> will hop you over to that branch</li>
           </ul>
         </section>
 
@@ -700,7 +700,7 @@ $ git branch -d feature-branch
         <section>
           <h3>Quick review</h3>
           <ul>
-            <li><code class ="inline">git checkout <em>branch_name</em></code>: creates a new branch and hops over to it/li>
+            <li><code class ="inline">git -b checkout <em>branch_name</em></code>: creates a new branch and hops over to it</li>
             <li><code class ="inline">git checkout <em>branch_name</em></code>: switch to another branch</li>
             <li><code class ="inline">git branch </code>: lists all your branches</li>
             <li><code class ="inline">git merge <em>branch_name</em></code>: merges branch into the current branch</li>
