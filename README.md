@@ -22,14 +22,15 @@ Available on [GitHub](https://saracope.github.io/git-the-basics/#/)
 
 **Exercises**
 
-[Exercise 1](https://saracope.github.io/git-the-basics/commit_exercise.html)
-[Exercise 2](https://saracope.github.io/git-the-basics/branch_exercise.html)
+* [Exercise 1](https://saracope.github.io/git-the-basics/commit_exercise.html)
+* [Exercise 2](https://saracope.github.io/git-the-basics/branch_exercise.html)
 
 **Resources**
 * For Windows users, download and install [Git Bash](https://git-scm.com/downloads)
 * Command line [cheat sheet](https://www.git-tower.com/blog/command-line-cheat-sheet/)
 * Git [cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 * Additional [GitHub tutorial](https://try.github.io/)
+* [Command line customization](http://www.andrewconnell.com/blog/customizing-your-iterm-prompt-on-macos-for-productivity) with iTerm on Mac
 
 **Tech requirements**
 
