@@ -28,6 +28,7 @@ Available on [GitHub](https://saracope.github.io/git-the-basics/#/)
 **Resources**
 * For Windows users, download and install [Git Bash](https://git-scm.com/downloads)
 * Command line [cheat sheet](https://www.git-tower.com/blog/command-line-cheat-sheet/)
+* [Command Line Power User](https://commandlinepoweruser.com/) video course by Wes Bos (free)
 * Git [cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 * Additional [GitHub tutorial](https://try.github.io/)
 * [Command line customization](http://www.andrewconnell.com/blog/customizing-your-iterm-prompt-on-macos-for-productivity) with iTerm on Mac
