@@ -8,6 +8,7 @@ The workshop will be a mix of lectures and hands-on exercises.
 
 **Topics covered**
 
+* Command line refresher
 * What are Version Control systems?
 * Git workflow
 * Setting up repos
